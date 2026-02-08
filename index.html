@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>MAHBUBUL ALAM (MCN) - Cryptic Nexus | Developer & Security Specialist</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="MAHBUBUL ALAM (MCN) - Professional Developer & Security Specialist from Bangladesh">
+  <meta name="theme-color" content="#05080b" id="theme-color">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <canvas id="bg-flow" aria-hidden="true"></canvas>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-aurora" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon"><i class="bi bi-braces"></i></span>
+        <span class="brand-name">AURA</span>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#stack">Stack</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+          <i class="bi bi-sun-fill theme-icon"></i>
+        </button>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+        </button>
+      </div>
+    </div>
+    <div id="mobileNav" class="mobile-nav" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="section hero">
+      <div class="hero__layout">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            MAHBUBUL ALAM<span class="accent-text">(MCN)</span>
+          </h1>
+          <p class="hero__roles">
+            <span class="role-prefix"><i class="bi bi-stars"></i></span>
+            <span class="role-rotator" data-roles='["Full Stack Developer","Security Specialist","API Developer","Problem Solver"]'>Cryptic Nexus</span>
+            <span class="caret"></span>
+          </p>
+          <p class="hero__tagline">
+            Professional developer and security specialist passionate about creating innovative solutions. 
+            Specializing in web development, API integration, and cybersecurity with a focus on clean code and user experience.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary"><i class="bi bi-kanban"></i> View Projects</a>
+            <a href="#contact" class="btn btn--outline"><i class="bi bi-send"></i> Get In Touch</a>
+            <button id="copySnippet" class="btn btn--ghost"><i class="bi bi-clipboard"></i> Copy Bio</button>
+          </div>
+          <ul class="hero__meta">
+            <li><i class="bi bi-shield-check"></i> Security Focused</li>
+            <li><i class="bi bi-code-slash"></i> Clean Code</li>
+            <li><i class="bi bi-lightning-charge"></i> Fast Delivery</li>
+          </ul>
+        </div>
+        <div class="hero__code-block">
+<pre id="heroSnippet"><code><span class="c">// Developer Profile</span>
+{
+  "<span class="key">profile</span>": {
+    "<span class="key">name</span>": "<span class="string">MAHBUBUL ALAM (MCN)</span>",
+    "<span class="key">alias</span>": "<span class="string">Cryptic Nexus</span>",
+    "<span class="key">role</span>": "<span class="string">Full Stack Developer & Security Specialist</span>",
+    "<span class="key">organization</span>": "<span class="string">Bangladesh Cyber Squad</span>"
+  },
+  "<span class="key">expertise</span>": [
+    "<span class="string">Web Development</span>",
+    "<span class="string">API Integration</span>",
+    "<span class="string">Cybersecurity</span>",
+    "<span class="string">Database Design</span>"
+  ],
+  "<span class="key">contact</span>": {
+    "<span class="key">telegram</span>": "<span class="string">@LORD_RAGNA</span>",
+    "<span class="key">website</span>": "<span class="string">mahbub.bro.bd</span>"
+  }
+}</code></pre>
+          <div class="code-bar">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="fname">profile.json</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section__header">
+        <h2 class="section__title">About Me</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="about__grid">
+        <div class="about__content reveal">
+          <p class="lead">
+            Hello! I'm <strong>MAHBUBUL ALAM</strong>, also known as <strong>MCN (Cryptic Nexus)</strong>. 
+            I'm a passionate developer and security specialist from Bangladesh with expertise in creating 
+            robust web applications and secure systems.
+          </p>
+          <p>
+            As a member of <strong>Bangladesh Cyber Squad</strong>, I focus on building innovative solutions 
+            that combine cutting-edge technology with security best practices. My work spans across full-stack 
+            development, API design, and cybersecurity implementations.
+          </p>
+          <p>
+            I believe in writing clean, maintainable code and creating user experiences that are both functional 
+            and delightful. Whether it's developing complex backend systems or crafting intuitive frontend interfaces, 
+            I approach every project with attention to detail and commitment to excellence.
+          </p>
+          <ul class="stats">
+            <li>
+              <span class="num">5+</span>
+              <span class="label">Years Experience</span>
+            </li>
+            <li>
+              <span class="num">50+</span>
+              <span class="label">Projects Completed</span>
+            </li>
+            <li>
+              <span class="num">100%</span>
+              <span class="label">Client Satisfaction</span>
+            </li>
+            <li>
+              <span class="num">24/7</span>
+              <span class="label">Support Available</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="about__panel reveal">
+          <figure class="profile-card">
+            <img src="https://raw.githubusercontent.com/mahbub4t6/MahBoom/main/Mahbub.png" alt="MAHBUBUL ALAM (MCN)" loading="lazy">
+            <figcaption>
+              <span class="title">Cryptic Nexus</span>
+              <span class="sub">(MCN)</span>
+              <div class="profile-badges">
+                <span class="badge"><i class="bi bi-shield-check"></i> Security</span>
+                <span class="badge"><i class="bi bi-code-square"></i> Development</span>
+                <span class="badge"><i class="bi bi-globe"></i> Web Expert</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Tech Stack</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="stack__groups">
+        <div class="stack-group reveal">
+          <h3><i class="bi bi-browser-chrome"></i> Frontend</h3>
+          <ul class="tag-list">
+            <li class="tag">HTML5</li>
+            <li class="tag">CSS3</li>
+            <li class="tag">JavaScript</li>
+            <li class="tag">React</li>
+            <li class="tag">Tailwind</li>
+          </ul>
+          <ul class="bars">
+            <li>
+              <span>HTML/CSS</span>
+              <div class="bar"><b style="--w: 95%;"></b></div>
+            </li>
+            <li>
+              <span>JavaScript</span>
+              <div class="bar"><b style="--w: 90%;"></b></div>
+            </li>
+            <li>
+              <span>React</span>
+              <div class="bar"><b style="--w: 85%;"></b></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="stack-group reveal">
+          <h3><i class="bi bi-server"></i> Backend</h3>
+          <ul class="tag-list">
+            <li class="tag">PHP</li>
+            <li class="tag">Python</li>
+            <li class="tag">Node.js</li>
+            <li class="tag">Express</li>
+            <li class="tag">APIs</li>
+          </ul>
+          <ul class="bars">
+            <li>
+              <span>PHP</span>
+              <div class="bar"><b style="--w: 92%;"></b></div>
+            </li>
+            <li>
+              <span>Python</span>
+              <div class="bar"><b style="--w: 88%;"></b></div>
+            </li>
+            <li>
+              <span>Node.js</span>
+              <div class="bar"><b style="--w: 85%;"></b></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="stack-group reveal">
+          <h3><i class="bi bi-database"></i> Database</h3>
+          <ul class="tag-list">
+            <li class="tag">MySQL</li>
+            <li class="tag">MongoDB</li>
+            <li class="tag">PostgreSQL</li>
+            <li class="tag">Redis</li>
+          </ul>
+          <ul class="bars">
+            <li>
+              <span>MySQL</span>
+              <div class="bar"><b style="--w: 90%;"></b></div>
+            </li>
+            <li>
+              <span>MongoDB</span>
+              <div class="bar"><b style="--w: 85%;"></b></div>
+            </li>
+            <li>
+              <span>PostgreSQL</span>
+              <div class="bar"><b style="--w: 80%;"></b></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="stack-group reveal">
+          <h3><i class="bi bi-shield-lock"></i> Security</h3>
+          <ul class="tag-list">
+            <li class="tag">Penetration Testing</li>
+            <li class="tag">Security Audit</li>
+            <li class="tag">Encryption</li>
+            <li class="tag">Linux</li>
+          </ul>
+          <ul class="bars">
+            <li>
+              <span>Security Analysis</span>
+              <div class="bar"><b style="--w: 88%;"></b></div>
+            </li>
+            <li>
+              <span>Linux Systems</span>
+              <div class="bar"><b style="--w: 92%;"></b></div>
+            </li>
+            <li>
+              <span>Network Security</span>
+              <div class="bar"><b style="--w: 85%;"></b></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Featured Projects</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="api">API Solutions</button>
+        <button class="filter-btn" data-filter="security">Security</button>
+        <button class="filter-btn" data-filter="automation">Automation</button>
+      </div>
+
+      <div class="projects__grid">
+        <article class="project-card reveal" data-tags="web api">
+          <div class="project-card__head">
+            <span class="project-icon"><i class="bi bi-globe"></i></span>
+            <h3 class="project-title">Professional Portfolio Platform</h3>
+          </div>
+          <p class="project-desc">
+            A modern, responsive portfolio website showcasing professional work with optimized performance, 
+            accessibility features, and seamless user experience across all devices.
+          </p>
+          <ul class="mini-tags">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>PHP</li>
+          </ul>
+          <div class="project-img">
+            <img src="https://placehold.co/800x400/0a1520/00ff9d?text=Portfolio+Website&font=montserrat" alt="Portfolio Website" loading="lazy">
+          </div>
+          <div class="project-links">
+            <a href="https://mahbub.bro.bd" class="plink" target="_blank" rel="noopener"><i class="bi bi-eye"></i> Live Demo</a>
+            <span class="plink"><i class="bi bi-info-circle"></i> Details</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="api automation">
+          <div class="project-card__head">
+            <span class="project-icon"><i class="bi bi-cpu"></i></span>
+            <h3 class="project-title">SMM Service API</h3>
+          </div>
+          <p class="project-desc">
+            Robust API system for social media marketing services with secure authentication, 
+            rate limiting, and professional response handling for enterprise applications.
+          </p>
+          <ul class="mini-tags">
+            <li>PHP</li><li>MySQL</li><li>REST API</li><li>OAuth</li>
+          </ul>
+          <div class="project-img">
+            <img src="https://placehold.co/800x400/0a1520/00b8ff?text=API+System&font=montserrat" alt="SMM API" loading="lazy">
+          </div>
+          <div class="project-links">
+            <a href="https://t.me/LORD_RAGNA" class="plink" target="_blank" rel="noopener"><i class="bi bi-telegram"></i> Inquire</a>
+            <span class="plink"><i class="bi bi-info-circle"></i> Overview</span>
+          </div>
+        </article>
+
+        <article class="project-card project-card--featured reveal" data-tags="security">
+          <div class="featured-badge">Featured</div>
+          <div class="project-card__head">
+            <span class="project-icon"><i class="bi bi-shield-lock"></i></span>
+            <h3 class="project-title">Security Dashboard</h3>
+          </div>
+          <p class="project-desc">
+            Comprehensive security monitoring dashboard with real-time threat detection, 
+            vulnerability assessment, and automated security reporting features.
+          </p>
+          <ul class="mini-tags">
+            <li>Security</li><li>Python</li><li>Dashboard</li><li>Monitoring</li>
+          </ul>
+          <div class="project-img">
+            <img src="https://placehold.co/800x400/0a1520/ff5f56?text=Security+Dashboard&font=montserrat" alt="Security Dashboard" loading="lazy">
+          </div>
+          <div class="project-links">
+            <span class="plink"><i class="bi bi-lock"></i> Private</span>
+            <span class="plink"><i class="bi bi-info-circle"></i> Overview</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="automation api">
+          <div class="project-card__head">
+            <span class="project-icon"><i class="bi bi-robot"></i></span>
+            <h3 class="project-title">Automation Framework</h3>
+          </div>
+          <p class="project-desc">
+            Advanced automation framework for streamlining development workflows, 
+            with plugin architecture and extensive customization capabilities.
+          </p>
+          <ul class="mini-tags">
+            <li>Python</li><li>Automation</li><li>Framework</li><li>CLI</li>
+          </ul>
+          <div class="project-img">
+            <img src="https://placehold.co/800x400/0a1520/ffbd2e?text=Automation+Framework&font=montserrat" alt="Automation Framework" loading="lazy">
+          </div>
+          <div class="project-links">
+            <a href="https://t.me/LORD_RAGNA" class="plink" target="_blank" rel="noopener"><i class="bi bi-telegram"></i> Inquire</a>
+            <span class="plink"><i class="bi bi-info-circle"></i> Features</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="projects__more">
+        <a href="https://github.com/NexusMCN" target="_blank" rel="noopener" class="btn btn--ghost">
+          <i class="bi bi-github"></i> View More on GitHub
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Get In Touch</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <div class="info-block">
+            <h3 class="info-block__title"><i class="bi bi-person-badge"></i> Professional Contact</h3>
+            <ul class="info-list">
+              <li><span>Name:</span> MAHBUBUL ALAM</li>
+              <li><span>Alias:</span> Cryptic Nexus (MCN)</li>
+              <li><span>Location:</span> Bangladesh (UTC+6)</li>
+              <li><span>Status:</span> Available for projects</li>
+            </ul>
+          </div>
+          
+          <div class="info-block">
+            <h3 class="info-block__title"><i class="bi bi-building"></i> Affiliation</h3>
+            <ul class="info-list">
+              <li><span>Organization:</span> Bangladesh Cyber Squad</li>
+              <li><span>Role:</span> Developer & Security Specialist</li>
+              <li><span>Focus:</span> Web Development, APIs, Security</li>
+            </ul>
+          </div>
+
+          <div class="social">
+            <a href="https://t.me/LORD_RAGNA" class="soc" target="_blank" rel="noopener">
+              <i class="bi bi-telegram"></i>
+              <span>Telegram</span>
+            </a>
+            <a href="https://t.me/ABOUTMAHBUB" class="soc" target="_blank" rel="noopener">
+              <i class="bi bi-megaphone"></i>
+              <span>Channel</span>
+            </a>
+            <a href="https://mahbub.bro.bd" class="soc" target="_blank" rel="noopener">
+              <i class="bi bi-globe"></i>
+              <span>Website</span>
+            </a>
+          </div>
+        </div>
+        
+        <form id="contact-form" class="contact__form reveal" novalidate>
+          <div class="form-field">
+            <label for="name">Full Name <span class="req">*</span></label>
+            <input id="name" name="name" type="text" required placeholder="Your full name">
+          </div>
+          
+          <div class="form-field">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input id="email" name="email" type="email" required placeholder="your.email@example.com">
+          </div>
+          
+          <div class="form-field">
+            <label for="subject">Project Type <span class="req">*</span></label>
+            <select id="subject" name="subject" required>
+              <option value="">Select project type</option>
+              <option value="web">Web Development</option>
+              <option value="api">API Integration</option>
+              <option value="security">Security Audit</option>
+              <option value="consultation">Consultation</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          
+          <div class="form-field">
+            <label for="message">Project Details <span class="req">*</span></label>
+            <textarea id="message" name="message" rows="6" required placeholder="Please describe your project requirements..."></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn--primary btn--full">
+            <i class="bi bi-send"></i> Send Inquiry
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="brand-icon"><i class="bi bi-braces"></i></span>
+          <span class="brand-name">Cryptic Nexus</span>
+        </div>
+        <p>&copy; <span id="year">2025</span> MAHBUBUL ALAM. Crafted with precision.</p>
+        <p class="foot-small">Professional Development • Security First • Innovation Driven</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://t.me/lord_ragna">Telegram</a>
+        <a href="https://t.me/aboutmahbub">Channel</a>
+        <a href="https://mahbub.bro.bd">Website</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
